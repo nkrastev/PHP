@@ -1,6 +1,7 @@
 <?php
 
-//input data
+//input data, required PHP 5.5 & GD
+
 $largeFiles = 'insert paths';
 $midFiles=    'insert paths';
 $smallFiles = 'insert paths';
