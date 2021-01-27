@@ -15,7 +15,7 @@ function ts_custom_pre_get_posts_query( $q )
 
 add_filter( 'woocommerce_product_categories_widget_args', 'woo_product_cat_widget_args' );
 function woo_product_cat_widget_args( $cat_args ) {
-	$cat_args['exclude'] = array('000001'); //dont display the categories from these IDs, replace IDs
+	$cat_args['exclude'] = array('000001'); //dont display the categories in widgets from these IDs, replace IDs
 	return $cat_args;
 }
 
