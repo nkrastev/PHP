@@ -1,3 +1,4 @@
+<?php
 function decryptData($dataField){
 	
   $key = 'YourMegaGigaSecretKey';		
@@ -16,3 +17,4 @@ function decryptData($dataField){
 	);
 	return $decrypted_Data; 
 }
+?>
